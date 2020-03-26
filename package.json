@@ -1,0 +1,16 @@
+{
+  "name": "thirstyice-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A dark theme, loosely inspired by the default light theme of Xcode 5",
+  "keywords": [
+    "syntax",
+    "theme",
+    "thirstyice"
+  ],
+  "repository": "https://github.com/atom/thirstyice-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
