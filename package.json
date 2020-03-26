@@ -8,7 +8,7 @@
     "theme",
     "thirstyice"
   ],
-  "repository": "https://github.com/atom/thirstyice-syntax",
+  "repository": "https://github.com/thirstyice/thirstyice-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
