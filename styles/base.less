@@ -56,7 +56,7 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--storage {
-	color: @purple;
+	color: @light-purple;
 }
 
 .syntax--comment {
@@ -90,10 +90,6 @@ atom-text-editor {
 .syntax--constant {
 	color: @blue;
 
-	&.syntax--character.syntax--escape {
-		color: @cyan;
-	}
-
 	&.syntax--numeric, &.syntax--numeric * {
 		color: @blue;
 	}
@@ -108,7 +104,7 @@ atom-text-editor {
 }
 
 .syntax--variable {
-	color: @purple;
+	color: @cyan;
 
 	&.syntax--interpolation {
 		color: darken(@red, 10%);
@@ -182,14 +178,17 @@ atom-text-editor {
 
 .syntax--support {
 	&.syntax--class {
-		color: @dark-cyan;
+		color: @purple;
+	}
+	&.syntax--type {
+		color: @light-purple;
 	}
 
 	&.syntax--function  {
-		color: @cyan;
+		color: @purple;
 
 		&.syntax--any-method {
-			color: @cyan;
+			color: @purple;
 		}
 	}
 }
@@ -199,12 +198,12 @@ atom-text-editor {
 		color: @blue;
 	}
 	&.syntax--name.syntax--type {
-		color: @light-orange;
+		color: @cyan;
 		text-decoration: underline;
 	}
 
 	&.syntax--other.syntax--inherited-class {
-		color: @green;
+		color: @purple;
 	}
 	&.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
 		color: @light-orange;
@@ -229,10 +228,6 @@ atom-text-editor {
 }
 
 .syntax--meta {
-	&.syntax--class {
-		color: @light-orange;
-	}
-
 	&.syntax--link {
 		color: @orange;
 	}
@@ -249,6 +244,11 @@ atom-text-editor {
 		background-color: @gray;
 		color: @syntax-text-color;
 	}
+
+	&.syntax--protocol-list {
+		color: @light-orange;
+	}
+
 }
 
 .syntax--none {
