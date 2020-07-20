@@ -297,9 +297,32 @@ atom-text-editor {
 
 .syntax--source.syntax--gfm .syntax--markup {
 	-webkit-font-smoothing: auto;
-	&.syntax--heading {
-		color: @green;
+	&.syntax--heading-1 {
+		color: @cyan;
 	}
+	&.syntax--heading-2 {
+		color: @dark-cyan;
+	}
+	&.syntax--heading-3 {
+		color: @light-purple;
+	}
+	&.syntax--heading-4 {
+		color: @purple;
+	}
+	&.syntax--heading-5 {
+		color: @pink;
+	}
+	&.syntax--raw { // Code blocks
+		color: @ochre;
+	}
+	.syntax--link {
+		color: @blue;
+	}
+	.syntax--hr {
+		color @brown;
+	}
+
+
 }
 
 
